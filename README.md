@@ -51,8 +51,8 @@ A **responsive, beginner-friendly medical clinic website** built with Next.js, R
 ### 1. **Clone the repository**
 
 ```bash
-git clone <your-repo-url>
-cd <project-directory>
+git https://github.com/isamch/MediCare-Clinic-Modern-Medical-Website.git
+cd MediCare-Clinic-Modern-Medical-Website
 ```
 
 ### 2. **Install dependencies**
@@ -108,10 +108,6 @@ Contributions are welcome! To contribute:
 
 ---
 
-## 📄 License
-
-This project is for educational and portfolio use. You may use, modify, and share it freely.
-
 ---
 
 ## 🙋 FAQ
@@ -126,5 +122,3 @@ This project is for educational and portfolio use. You may use, modify, and shar
 - Edit the `lib/data.ts` file and follow the existing structure.
 
 ---
-
-**Made with ❤️ for learning and portfolio building.** 
