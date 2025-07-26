@@ -13,7 +13,7 @@ export function AboutSection() {
     <section id="about" className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">About MediCare Clinic</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">About IC MediCare</h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             We are dedicated to providing exceptional healthcare services with compassion, expertise, and cutting-edge
             medical technology.
@@ -36,7 +36,7 @@ export function AboutSection() {
           <div>
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Our Mission</h3>
             <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-              At MediCare Clinic, we believe that everyone deserves access to quality healthcare. Our mission is to
+              At IC MediCare, we believe that everyone deserves access to quality healthcare. Our mission is to
               provide comprehensive medical services that promote health, prevent illness, and restore wellness in our
               community.
             </p>

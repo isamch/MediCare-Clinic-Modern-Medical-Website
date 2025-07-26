@@ -38,7 +38,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center space-x-2 mb-4">
               <Stethoscope className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold">MediCare Clinic</span>
+              <span className="text-xl font-bold">IC MediCare</span>
             </Link>
             <p className="text-gray-400 mb-6 max-w-md">
               Providing exceptional healthcare services with compassion, expertise, and cutting-edge medical technology
@@ -76,7 +76,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">© {new Date().getFullYear()} MediCare Clinic. All rights reserved.</p>
+          <p className="text-gray-400 text-sm">© {new Date().getFullYear()} IC MediCare. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
               Privacy Policy

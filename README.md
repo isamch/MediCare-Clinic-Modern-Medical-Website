@@ -1,4 +1,4 @@
-# MediCare Clinic – Modern Medical Website
+# IC MediCare – Modern Medical Website
 
 A **responsive, beginner-friendly medical clinic website** built with Next.js, React, and Tailwind CSS. This project is designed to showcase a professional healthcare platform where users can:
 

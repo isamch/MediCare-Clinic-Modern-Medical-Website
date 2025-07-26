@@ -9,7 +9,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "MediCare Clinic - Professional Healthcare Services",
+  title: "IC MediCare - Professional Healthcare Services",
   description: "Professional medical care with experienced doctors and modern facilities. Book your appointment today.",
   icons: {
     icon: "https://img.icons8.com/color/48/stethoscope.png",

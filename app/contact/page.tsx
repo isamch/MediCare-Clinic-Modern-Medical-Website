@@ -21,8 +21,7 @@ export default function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // In a real app, you would send this to your backend
-    console.log("Contact form submitted:", formData)
+
     setIsSubmitted(true)
     setTimeout(() => setIsSubmitted(false), 3000)
   }

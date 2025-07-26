@@ -37,7 +37,7 @@ export function Navbar() {
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center space-x-2">
             <Stethoscope className="h-8 w-8 text-primary" />
-            <span className="text-xl font-bold text-foreground">MediCare</span>
+            <span className="text-xl font-bold text-foreground">IC MediCare</span>
           </Link>
 
           {/* Desktop Navigation */}
