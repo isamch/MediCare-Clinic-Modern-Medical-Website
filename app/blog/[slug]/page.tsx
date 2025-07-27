@@ -70,3 +70,9 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     </div>
   )
 }
+
+export async function generateStaticParams() {
+  // Importing here to ensure compatibility with static export
+  const { blogPosts } = await import("@/lib/data");
+  return blogPosts.map((post) => ({ slug: post.slug }));
+}

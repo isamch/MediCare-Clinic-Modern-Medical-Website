@@ -108,3 +108,9 @@ export default function DoctorProfilePage({ params }: { params: { id: string } }
     </div>
   )
 }
+
+export async function generateStaticParams() {
+  // Importing here to ensure compatibility with static export
+  const { doctors } = await import("@/lib/data");
+  return doctors.map((doctor) => ({ id: doctor.id }));
+}
